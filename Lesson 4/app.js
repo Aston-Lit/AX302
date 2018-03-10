@@ -41,3 +41,12 @@ Maverick.onload = function(){
 
 ctx3.fillStyle = "green";
 ctx3.fillRect(0,350,800,150);
+
+//create image
+var Creeper_Body = new Image();
+//set source 
+Creeper_Body.src = "Creeper_Body.jpg"
+
+Creeper_Body.onload = function(){
+	ctx.drawImage(Creeper_Body, 0, 0, 299, 299);
+}
